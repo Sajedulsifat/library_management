@@ -4,35 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="sign_up.css">
+    <title>Sign Up</title>
 </head>
 <body>
     <form action="add_information.php" method="POST">
-        <label for="name">First name 
-            <input type="text" name="name" required>
+        <label for="fName">First Name:
+            <input type="text" name="FName" required>
         </label><br>
-        <label for="name">Last name
-            <input type="text" name="name" required>
+        <label for="LName">Last Name:
+            <input type="text" name="LName" required>
         </label><br>
-        <label for="email">Email
-            <input type="email" name="email" required>
+        <label for="Email">Email:
+            <input type="email" name="Email" required>
         </label><br>
-        <label for="password">Password
-            <input type="password" name="password" required>
+        <label for="Passwords">Password:
+            <input type="password" name="Passwords" required>
         </label><br>
-        <label for="date of birth">Date of birth
-            <input type="date" name="date of birth" required>
+        <label for="Date_Of_Birth">Date of Birth:
+            <input type="date" name="Date_Of_Birth" required>
         </label><br>
-        <label for="Address">Address
+        <label for="Address">Address:
             <input type="text" name="Address" required>
         </label><br>
-        <label for="Phone number">Phone Number
-            <input type="text" name="Phone number" required>
+        <label for="Phone_Number">Phone Number:
+            <input type="text" name="Phone_Number" required>
         </label><br>
-        <label for="mebership date">membership_date
-            <input type="date" name="membership_date" required>
+        <label for="Membership_date">Membership Date:
+            <input type="date" name="Membership_date" required>
         </label><br>
+        <input type="submit" name="Sign_Up" value="Sign Up">
     </form>
-   
 </body>
 </html>
